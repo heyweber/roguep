@@ -1,0 +1,115 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+/*******GRID*****/
+.full-width {
+    width: 1200px;
+    padding-left: 25px;
+    clear: both;
+}
+.half-width {
+  width: 600px;
+  height: 97px;
+  float: left;
+}
+.third-width {
+   height: 200px;
+   width: 400px;
+   float: left;
+   padding-left: 25px;
+   border-top-style: solid;
+   border-top-width: 1px;
+   border-right-style: solid;
+   border-right-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+}
+/******HEADER*****/
+header p {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+}
+header p span {
+  color: #000000;
+}
+nav {
+  margin-top: 35px;
+  padding-left: 50px;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #77a466;
+    padding: 8px;
+}
+
+/****OpeningText*****/
+img {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+
+article h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+article p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*****SPECIALS*****/
+#specials p {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#specials span ul li {
+  color: #77a466;
+  line-height: 18px;
+  list-style-type: none;
+  padding-left: -100px;
+}
+
+/*****REVIEWS*****/
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+  padding-right: 55px;
+}
+#reviews span {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*****Contact*****/
+#contact span {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*****FOOTER*****/
+footer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+footer span {
+  font-style: italic;
+  color: #77a466;
+}
+footer {
+  padding-bottom: 50px;
+}
